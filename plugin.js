@@ -13,6 +13,11 @@ const myPlugin = () => {
     inherits: optionalChainingSyntax,
 
     visitor: {
+      "Program"(path) {
+        // TODO: maybe reset statefulness the other way
+        lastImport = null;
+      },
+
       "ImportDeclaration"(path) {
         lastImport = path;
       },

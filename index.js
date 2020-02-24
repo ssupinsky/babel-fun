@@ -48,5 +48,3 @@ console.log(
     plugins: [myPlugin],
   }).code
 );
-
-// TODO: check why results aren't consistent
