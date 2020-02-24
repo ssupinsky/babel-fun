@@ -1,0 +1,16 @@
+{
+  "name": "babel-fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.8.3",
+    "@babel/plugin-syntax-optional-chaining": "^7.8.3"
+  }
+}
